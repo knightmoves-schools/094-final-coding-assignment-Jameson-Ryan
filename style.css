@@ -6,19 +6,21 @@
     height: 100vh;
     padding: 0 50px;
 }
+
 .item-list {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: left;
-    height: 100vh;
     gap: 50px;
 }
 
 .shopping-cart {
     display: flex;
     flex-direction: column; 
-    justify-content: center;
-    align-items: right;
-    height: 100vh;
+}
+
+.item-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    align-items: flex-start;
 }
